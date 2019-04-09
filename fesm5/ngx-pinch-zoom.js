@@ -523,7 +523,7 @@ var PinchZoomComponent = /** @class */ (function () {
      */
     function () {
         this.element.style.display = 'flex';
-        this.element.style.height = '100%';
+        this.element.style.height = 'inherit';
         this.element.style.alignItems = 'center';
         this.element.style.justifyContent = 'center';
         this.element.style.transformOrigin = '0 0';
